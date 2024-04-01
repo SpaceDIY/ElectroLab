@@ -1,5 +1,5 @@
-🚀 Example circuits
-================
+🚀 Learning electronics
+========================
 *Electronics* is the branch of science and technology that deals with the flow of electrons through conductors, semiconductors, and vacuum or gas-filled tubes. It plays a crucial role in modern society, powering everything from smartphones to spacecraft.
 
 
@@ -29,11 +29,10 @@ Relations
 
 Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as :math:`V = I \cdot R`, but it can be rearranged as :math:`I = \frac{V}{R}` or :math:`R = \frac{V}{I}`
 
+From the water analogy, we it's easily to mentally picture that if the hole has the size (:math:`a_1 = a_2`) but the colum of water in the second glass is higher than the first one (:math:`h_2 > h_1`), so it is the pressure at the hole point. Therefore the flow will be also higher on the second glass with respect to the first one (:math:`Q_2 > Q_1`).
+
 On the other hand, the electric power can be calculated as :math:`P = V \cdot I`. However if we apply Ohm's law and replace some parameters, it can be expressed as :math:`P = R \cdot I^2` or :math:`P = \frac{V^2}{R}`
 
-|
-|
-|
 Circuit Symbols and Diagrams
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -66,7 +65,10 @@ You can also visualize all the steps at once by clicking on the 👁 (eye icon).
 
 As you can identify, there are 4 wires, which represent the 4 green traces from the schematic, while the red components are the pushbuttons set and the LEDs system (internally connected to resistors).
 
-But don't worry, we'll get to that in the following example circuits:
+Example circuits
+^^^^^^^^^^^^^^^^
+
+Through the following example circuits, you will learn different circuits that will probe to be not only  educational, but also useful for potential applications you might encounter!
 
 .. toctree::
    :maxdepth: 2

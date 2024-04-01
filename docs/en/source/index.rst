@@ -56,8 +56,8 @@ please contact me directly:
    🛒 Buy <https://www.elecrow.com/electrolab.html>   
    getting_started
    assembly
-   examples 
    components
    design   
+   examples 
    glossary
    faq   
