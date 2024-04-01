@@ -39,7 +39,7 @@ Relations
     :figwidth: 300px 
     
 
-Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as :math:`V = I \cdot R ` , but can be rearranged as :math:`I = \frac{V}{R}` or :math:`R = \frac{V}{I}`
+Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as :math:`V = I \cdot R`, but it can be rearranged as :math:`I = \frac{V}{R}` or :math:`R = \frac{V}{I}`
 
 On the other hand, the electric power can be calculated as :math:`P = V \cdot I`. However if we apply Ohm's law and replace some parameters, it can be expressed as :math:`P = R \cdot I^2` or :math:`P = \frac{V^2}{R}`
 
