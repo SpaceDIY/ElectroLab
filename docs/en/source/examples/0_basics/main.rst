@@ -19,17 +19,17 @@ Definitions
 
 But let's start from the beggining, introducing some of the essential definitions, such as electric *voltage*, *current* and *resistance*
 
-- Voltage ($V$) is the electrical potential difference that drives the current. It is measured in volts [V].
-- Electric current ($I$) is the flow of electric charge, carried by electrons through a conductor. It is measured in amperes [A], often abbreviated as "amps."
-- Resistance ($R$) is the property of a material that opposes the flow of electric current. It is measured in ohms [$\Omega$].
+- Voltage (:math:`V`) is the electrical potential difference that drives the current. It is measured in volts [V].
+- Electric current (:math:`I`) is the flow of electric charge, carried by electrons through a conductor. It is measured in amperes [A], often abbreviated as "amps."
+- Resistance (:math:`R`) is the property of a material that opposes the flow of electric current. It is measured in ohms [:math:`\Omega`].
 
 .. figure:: ../../images/examples/Image1.png
     :align: right
     :figwidth: 300px
 
-These definitions are interesting, but things get much more clear if we can make an analogy to something we may be more comfortable understanding: imagine you have two glasses filled with water, each with a hole at the bottom. The amount of water in each glass represents the electric charge, and the holes areas ($a$) represent the electrical resistance. The height ($h$) of the water on each glass (which can be understood as the pressure made by the column of water at the hole height) can be thought as the voltage, leaving the flow ($Q$) as the electric current.
+These definitions are interesting, but things get much more clear if we can make an analogy to something we may be more comfortable understanding: imagine you have two glasses filled with water, each with a hole at the bottom. The amount of water in each glass represents the electric charge, and the holes areas (:math:`a`) represent the electrical resistance. The height (:math:`h`) of the water on each glass (which can be understood as the pressure made by the column of water at the hole height) can be thought as the voltage, leaving the flow (:math:`Q`) as the electric current.
 
-Additionally, we can define the concept of electric power ($P$) as the rate at which electrical energy is converted into other forms of energy, such as light, heat, or motion, in an electrical circuit. In simpler terms, it's the amount of energy that electric devices use or produce per unit of time. It's like how fast a light bulb can turn electricity into light, or how quickly a motor can turn electricity into movement. It is measured in watts (W).
+Additionally, we can define the concept of electric power (:math:`P`) as the rate at which electrical energy is converted into other forms of energy, such as light, heat, or motion, in an electrical circuit. In simpler terms, it's the amount of energy that electric devices use or produce per unit of time. It's like how fast a light bulb can turn electricity into light, or how quickly a motor can turn electricity into movement. It is measured in watts (W).
 
 Relations
 ----------
@@ -39,13 +39,13 @@ Relations
     :figwidth: 300px 
     
 
-Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as $V = I \cdot R$ , but can be rearranged as $I = {V  \over R}$ or $R = {V \over I}$ :math:`R = \frac{V}{I}`
+Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as :math:`V = I \cdot R ` , but can be rearranged as :math:`I = \frac{V}{R}` or :math:`R = \frac{V}{I}`
 
-On the other hand, the electric power can be calculated as $P = V \cdot I$. However if we apply Ohm's law and replace some parameters, it can be expressed as $P = R \cdot I^2$ or $P = {V^2 \over R}$
+On the other hand, the electric power can be calculated as :math:`P = V \cdot I`. However if we apply Ohm's law and replace some parameters, it can be expressed as :math:`P = R \cdot I^2` or :math:`P = \frac{V^2}{R}`
 
-
-
-
+|
+|
+|
 Circuit Symbols and Diagrams
 -----------------------------
 
