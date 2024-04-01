@@ -1,8 +1,61 @@
 🚀 Example circuits
 ================
-Now that we know the way to operate with the |Product| let's get into some real work.
+*Electronics* is the branch of science and technology that deals with the flow of electrons through conductors, semiconductors, and vacuum or gas-filled tubes. It plays a crucial role in modern society, powering everything from smartphones to spacecraft.
 
-Through the upcomming docs, you will see interactive illustrations like this one:
+
+Definitions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+But let's start from the beggining, introducing some of the essential definitions, such as electric *voltage*, *current* and *resistance*
+
+- Voltage (:math:`V`) is the electrical potential difference that drives the current. It is measured in volts [V].
+- Electric current (:math:`I`) is the flow of electric charge, carried by electrons through a conductor. It is measured in amperes [A], often abbreviated as "amps."
+- Resistance (:math:`R`) is the property of a material that opposes the flow of electric current. It is measured in ohms [:math:`\Omega`].
+
+.. figure:: images/examples/Image1.png
+    :align: right
+    :figwidth: 300px
+
+These definitions are interesting, but things get much more clear if we can make an analogy to something we may be more comfortable understanding: imagine you have two glasses filled with water, each with a hole at the bottom. The amount of water in each glass represents the electric charge, and the holes areas (:math:`a`) represent the electrical resistance. The height (:math:`h`) of the water on each glass (which can be understood as the pressure made by the column of water at the hole height) can be thought as the voltage, leaving the flow (:math:`Q`) as the electric current.
+
+Additionally, we can define the concept of electric power (:math:`P`) as the rate at which electrical energy is converted into other forms of energy, such as light, heat, or motion, in an electrical circuit. In simpler terms, it's the amount of energy that electric devices use or produce per unit of time. It's like how fast a light bulb can turn electricity into light, or how quickly a motor can turn electricity into movement. It is measured in watts (W).
+
+Relations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/examples/Image2.png
+    :align: left
+    :figwidth: 300px 
+    
+
+Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as :math:`V = I \cdot R`, but it can be rearranged as :math:`I = \frac{V}{R}` or :math:`R = \frac{V}{I}`
+
+On the other hand, the electric power can be calculated as :math:`P = V \cdot I`. However if we apply Ohm's law and replace some parameters, it can be expressed as :math:`P = R \cdot I^2` or :math:`P = \frac{V^2}{R}`
+
+|
+|
+|
+Circuit Symbols and Diagrams
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Circuit symbols are graphical representations of electronic components used in circuit diagrams. Understanding these symbols is essential for interpreting and designing electronic circuits. In the following examples, you will get more familiar with some of the following symbols and the components they represent.
+
+.. figure:: images/examples/Image3.png
+    :align: center
+    :figwidth: 1000px
+
+Circuit diagrams depict the connections between components and their arrangement within a circuit. On this documentation we will be using two main colors: red, to represent the component (or system) already integrated on the ElectroLab, and green, to represent the wiring route.
+
+.. figure:: images/examples/Image4.png
+    :align: center
+    :figwidth: 1000px
+
+
+How to work in the ElectroLab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On the ElectroLab you can directly make all the connections between the different components, trying first to interpret the schematic, for later make the circuit on the board.
+
+Through the upcomming docs, you will see interactive illustrations like this one, which represent the previous schematic:
 
 .. raw:: html
         
@@ -11,7 +64,9 @@ Through the upcomming docs, you will see interactive illustrations like this one
 You can navigate through each step forward ➡️ and backward ⬅️, or enter directly the step you want.
 You can also visualize all the steps at once by clicking on the 👁 (eye icon).
 
-Feel free to experiment with the following tested circuits:
+As you can identify, there are 4 wires, which represent the 4 green traces from the schematic, while the red components are the pushbuttons set and the LEDs system (internally connected to resistors).
+
+But don't worry, we'll get to that in the following example circuits:
 
 .. toctree::
    :maxdepth: 2
