@@ -23,7 +23,7 @@ But let's start from the beggining, introducing some of the essential definition
 - Electric current ($I$) is the flow of electric charge, carried by electrons through a conductor. It is measured in amperes [A], often abbreviated as "amps."
 - Resistance ($R$) is the property of a material that opposes the flow of electric current. It is measured in ohms [$\Omega$].
 
-.. figure:: images/examples/Image1.png
+.. figure:: ../../images/examples/Image1.png
     :align: right
     :figwidth: 300px
 
@@ -34,12 +34,12 @@ Additionally, we can define the concept of electric power ($P$) as the rate at w
 Relations
 ----------
 
-.. figure:: images/examples/Image2.png
+.. figure:: ../../images/examples/Image2.png
     :align: left
     :figwidth: 300px 
     
 
-Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as $V = I \cdot R$, but can be rearranged as $I = {V  \over R}$ or $R = {V \over I}$
+Ohm's Law states that the current flowing through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them. Mathematically, Ohm's Law is expressed as $V = I \cdot R$ , but can be rearranged as $I = {V  \over R}$ or $R = {V \over I}$ :math:`R = \frac{V}{I}`
 
 On the other hand, the electric power can be calculated as $P = V \cdot I$. However if we apply Ohm's law and replace some parameters, it can be expressed as $P = R \cdot I^2$ or $P = {V^2 \over R}$
 
@@ -53,6 +53,6 @@ Circuit symbols are graphical representations of electronic components used in c
 
 In the following examples, you will get more familiar with some of the following symbols and the components they represent.
 
-.. figure:: images/examples/Image3.png
+.. figure:: ../../images/examples/Image3.png
     :align: center
     :figwidth: 1000px
