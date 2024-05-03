@@ -10,17 +10,24 @@ The ElectroLab board is an electronic trainer designed for educational purposes.
 With its big set of integrated components, the ElectroLab offers a very powerful and versatile platform for building up your electronic circuits in very few steps.
 
 <p float="left">
-   <img src="./docs/source/images/components/General_grey.png" width="100%">
+   <img src="./Documentation/Images/ElectroLab.png" width="100%">
 </p>
 
 
+## Project tree
 
-[documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=latest&style=for-the-badge
+<li><a href="./Design/">Design</a></li>
+<li><a href="./Documentation/">Documentation</a></li>
+
+<li><a href="./README.md">README.md</a></li>
+
+[documentation-shield]: https://readthedocs.org/projects/electrolab/badge/?version=v3&style=for-the-badge
 [documentation]: https://electrolab.readthedocs.io/en/v3/
 
 [license-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge
 
-[maintenance-shield]: https://img.shields.io/badge/maintainer-J.%20G.%20Aguado-blue.svg?style=for-the-badge
+
+[maintenance-shield]: https://img.shields.io/badge/maintainer-J.%20G.%20Aguado-2e48a7.svg?style=for-the-badge
 [maintenance]: https://github.com/JGAguado
 
 [buyit-shield]: https://img.shields.io/badge/get%20it%20on-elecrow-399BD7.svg?style=for-the-badge
